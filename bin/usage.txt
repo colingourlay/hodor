@@ -1,0 +1,5 @@
+Usage: hodor {OPTIONS}
+
+Standard Options:
+
+  --help, -h  Show this message

@@ -1,0 +1,36 @@
+{
+  "name": "hodor",
+  "version": "0.1.0",
+  "description": "An indispensable utility for Game of Thrones fans.",
+  "main": "index.js",
+  "bin": {
+    "hodor": "bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colingourlay/hodor.git"
+  },
+  "keywords": [
+    "game-of-thrones",
+    "npm",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/colingourlay/hodor/issues"
+  },
+  "devDependencies": {
+    "tape": "~2.3.0"
+  },
+  "author": {
+    "name": "Colin Gourlay",
+    "email": "colin@colin-gourlay.com",
+    "url": "http://colin-gourlay.com"
+  },
+  "scripts": {
+    "test": "node test/all.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "~0.6.0"
+  }
+}
