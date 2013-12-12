@@ -1,5 +1,5 @@
-function Hodor() {
+function hodor() {
     return 'Hodor.';
-};
-Hodor.toString = Hodor;
-module.exports = Hodor;
+}
+hodor.toString = hodor;
+module.exports = hodor;
