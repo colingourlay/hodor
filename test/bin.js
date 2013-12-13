@@ -1,5 +1,5 @@
 var test = require('tape');
-var spawn = require('child_process').spawn;
+var spawn = require('win-spawn');
 var path = require('path');
 
 test('bin', function (t) {
