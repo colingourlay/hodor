@@ -35,5 +35,9 @@
     "nights-watch": "node scripts/nights-watch.js",
     "test": "node test/all.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "win-spawn": "~2.0.0"
+  }
 }
