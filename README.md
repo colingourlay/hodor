@@ -57,6 +57,12 @@ Or to use the `hodor` command anywhere (because it's super useful):
 
     $ npm install -g hodor
 
+## Development
+
+It's recommended to run the tests while developing. If you call upon the Night's Watch, hodor, the command line utility & the tests will all be monitored, and the tests will run when you change any of those files:
+
+    $ npm run nights-watch
+
 ## License
 
 MIT

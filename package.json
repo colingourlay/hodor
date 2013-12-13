@@ -1,6 +1,6 @@
 {
   "name": "hodor",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "An indispensable utility for Game of Thrones fans.",
   "main": "index.js",
   "bin": {
@@ -18,8 +18,14 @@
   "bugs": {
     "url": "https://github.com/colingourlay/hodor/issues"
   },
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "win-spawn": "~2.0.0"
+  },
   "devDependencies": {
-    "tape": "~2.3.0"
+    "tape": "~2.3.0",
+    "gaze": "~0.4.3",
+    "npm": "~1.3.17"
   },
   "author": {
     "name": "Colin Gourlay",
@@ -27,11 +33,8 @@
     "url": "http://colin-gourlay.com"
   },
   "scripts": {
+    "nights-watch": "node scripts/nights-watch.js",
     "test": "node test/all.js"
   },
-  "license": "MIT",
-  "dependencies": {
-    "optimist": "~0.6.0",
-    "win-spawn": "~2.0.0"
-  }
+  "license": "MIT"
 }
