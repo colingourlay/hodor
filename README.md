@@ -66,3 +66,6 @@ It's recommended to run the tests while developing. If you call upon the Night's
 ## License
 
 MIT
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/colingourlay/hodor/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
