@@ -1,6 +1,6 @@
 {
-  "name": "hodor",
-  "version": "0.2.0",
+  "name": "hodor-api",
+  "version": "1.0.0",
   "description": "An indispensable utility for Game of Thrones fans.",
   "main": "index.js",
   "bin": {

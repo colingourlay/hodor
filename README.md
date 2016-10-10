@@ -1,4 +1,4 @@
-# hodor
+# hodor-api
 
 An indispensable utility for Game of Thrones fans
 
@@ -6,7 +6,7 @@ An indispensable utility for Game of Thrones fans
 
 index.js:
 
-    var hodor = require('hodor');
+    var hodor = require('hodor-api');
 
     var response = hodor('Hodor, bring my brother here.');
 
@@ -17,9 +17,9 @@ index.js:
     $ node index.js
     Hodor.
 
-## Module API
+## API
 
-    var hodor = require('hodor');
+    var hodor = require('hodor-api');
 
 ### hodor([...])
 
@@ -51,11 +51,11 @@ Become Pipey McPiperson:
 
 ## Installation
 
-    $ npm install hodor
+    $ npm install hodor-api
 
 Or to use the `hodor` command anywhere (because it's super useful):
 
-    $ npm install -g hodor
+    $ npm install -g hodor-api
 
 ## Development
 
