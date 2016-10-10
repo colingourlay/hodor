@@ -66,3 +66,9 @@ It's recommended to run the tests while developing. If you call upon the Night's
 ## License
 
 MIT
+
+## Note about the new package name
+
+This was previously published to npm as `hodor`, but I've transferred ownership of that name to another author with a much cooler hodor library. You should check it out!
+
+My watch has ended.
